@@ -6,8 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringbootJavaChallengeApplication {
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		SpringApplication.run(SpringbootJavaChallengeApplication.class, args);
 	}
+
+
+
+
+
 
 }
