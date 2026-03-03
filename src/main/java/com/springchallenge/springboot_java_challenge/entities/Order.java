@@ -1,14 +1,14 @@
-package entities;
+package com.springchallenge.springboot_java_challenge.entities;
 
 public class Order {
     private Integer code;
     private Double basic;
     private Double discount;
 
-    public Order(Double basic, Double discount, Integer code) {
+    public Order(Integer code, Double basic, Double discount) {
+        this.code = code;
         this.basic = basic;
         this.discount = discount;
-        this.code = code;
     }
 
     public Integer getCode() {

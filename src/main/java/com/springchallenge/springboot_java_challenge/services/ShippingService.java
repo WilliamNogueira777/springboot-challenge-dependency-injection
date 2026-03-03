@@ -1,4 +1,4 @@
-package services;
+package com.springchallenge.springboot_java_challenge.services;
 
 import org.springframework.stereotype.Service;
 

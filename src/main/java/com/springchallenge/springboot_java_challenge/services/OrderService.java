@@ -1,6 +1,6 @@
-package services;
+package com.springchallenge.springboot_java_challenge.services;
 
-import entities.Order;
+import com.springchallenge.springboot_java_challenge.entities.Order;
 import org.springframework.stereotype.Service;
 
 @Service
